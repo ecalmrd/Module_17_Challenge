@@ -87,7 +87,7 @@ We see that this portion is used in the top level domain (.com) section of the U
 
 The character classses used are ```\d``` and ```\w```. 
 
-The ```\d``` matches ONLY digit characters between 0 - 9. 
+The ```\d``` matches ONLY digit characters between 0 - 9.   
 The ```\w``` matches any word character, letters, as well as including digits, and underscores.
 
 In this case we see the ```\d``` used in the second group, the domain section written as: ```([\da-z\.-]+)```. 
