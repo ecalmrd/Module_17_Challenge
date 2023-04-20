@@ -79,7 +79,7 @@ Lastly, this portion describes the usage of the ```{}``` in the URL regex:
 
 ```([a-z\.]{2,6})```
 
-We see that this portion is used in the top level domain section of the URL (.com). The curly brackets are used to identify between 2 to 6 characters in that section.
+We see that this portion is used in the top level domain (.com) section of the URL. The curly brackets are used to identify between 2 to 6 characters in that section.
 
 ### OR Operator
 
