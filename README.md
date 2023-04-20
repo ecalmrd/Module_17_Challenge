@@ -6,8 +6,8 @@ Matching a URL with Regular Expressions
 
 Here we will be describing the syntax that is used to match a URL with Regular Expressions. 
 
-A URL regex looks like this:
- /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+A URL regex looks like this:  
+```/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/```
 
  The URL regex takes into account of the different ways URL addresses are written such as:
 
