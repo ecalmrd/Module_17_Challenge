@@ -48,12 +48,12 @@ To set anchors we use ```^``` and ```$```. Anchors are what sets the start and e
 A URL contains several sections that would be helpful if put them into different groups. In order to do that, we use parenthesis to group specific sections. Let's take a look at our URL regex and break them down into groups.
 
 URL regex:
-```/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/```
+```/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/```  
 
-The first group describes the http section (https): ```(https?:\/\/)```
-The second group describes the domain section (www.youtube): ```([\da-z\.-]+)```
-The third group describes the top level domain section (.com, .edu): ```([a-z\.]{2,6})```
-The fourth group describes the path: ```([\/\w \.-]*)*```
+The first group describes the http section (https): ```(https?:\/\/)```  
+The second group describes the domain section (www.youtube): ```([\da-z\.-]+)```  
+The third group describes the top level domain section (.com, .edu): ```([a-z\.]{2,6})```  
+The fourth group describes the path: ```([\/\w \.-]*)*```  
 
 ### Bracket Expressions
 [\da-z\.-]
