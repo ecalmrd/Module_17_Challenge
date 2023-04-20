@@ -67,7 +67,7 @@ This portion describes the usage of ```?``` in the URL regex:
 
 ```(https?:\/\/)?```
 
-As you can see, this group uses two ```?``` quantifiers. The first ```?``` is looking for either ```http``` or ```https```. This works because the ```?``` is placed right after the ```s``` from the ```https```. The second ```?``` is placed after the closing parenthesis. This is looking at the entire http or https expression and indicating that it may or may not include (http) or (https) since a valid URL can begin with (www.).
+As you can see, this group uses two ```?``` quantifiers. The first ```?``` is looking for either ```http``` or ```https```. This works because the ```?``` is placed right after the ```s``` from the ```https```. The second ```?``` is placed after the closing parenthesis. This is looking at the entire ```http``` or ```https``` expression and indicating that it may or may not include ```http``` or ```https``` since a valid URL can begin with ```www.```.
 
 The next portion describes the usage of ```*``` in the URL regex:
 
