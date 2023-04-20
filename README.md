@@ -38,7 +38,7 @@ Grouping
 Bracket Expressions  
 
 ### Anchors
-To set anchors we use ```^``` and ```$```. Anchors are what sets the start and end of the string. To specify the beginning of a string, we use the symbol ```^```, and to indicate the end of a string, we use ```$```. When matching a URL using regular expressions, we enclose the entire regex within the ```^``` and ```$``` symbols.
+The anchors that are used for this regex are ```^``` and ```$```. These anchors are what sets the start and end of the string. To specify the beginning of a string, we use the symbol ```^```, and to indicate the end of a string, we use ```$```. When matching a URL using regular expressions, we enclose the entire regex within the ```^``` and ```$``` symbols.
 
 ```/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/```
 
