@@ -1,6 +1,4 @@
-# Title (replace with your title)
-
-Matching a URL with Regular Expressions
+# Matching a URL with Regular Expressions Tutorial
 
 ## Summary
 
