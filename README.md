@@ -11,11 +11,11 @@ A URL regex looks like this:
 
  The URL regex takes into account of the different ways URL addresses are written such as:
 
-https://www.example.com/
-http://subdomain.example.com/path/to/file.html
-www.example.com
-example.com/path/to/file.html
-example.co.uk
+<span>https://</span><span>www</span>.example.com/    
+<span>http://</span>subdomain.example.com/path/to/file.html  
+<span>www</span>.example.com  
+example.com/path/to/file.html   
+example.co.uk  
 example.com/page?query=string
 
 ## Table of Contents
@@ -33,11 +33,11 @@ example.com/page?query=string
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
-URL regex components consists of:
-Anchors
-Quantifiers
-Grouping
-Bracket Expressions
+URL regex components consists of:  
+Anchors  
+Quantifiers  
+Grouping  
+Bracket Expressions  
 
 ### Anchors
 To set anchors we use ```^``` and ```$```. Anchors are what sets the start and end of the string. To set a start point of a string, we use ```^``` and to set an end point of a string, we use ```$```. In the case of matching a URL with regular expressions, the ^ and $ is wrapped around the entire regex.
