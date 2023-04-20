@@ -43,7 +43,7 @@ The anchors that are used for this regex are ```^``` and ```$```. These anchors 
 ```/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/```
 
 ### Grouping and Capturing
-A URL contains several sections that would be helpful if put them into different groups. In order to do that, we use parenthesis to group specific sections. Let's take a look at our URL regex and break them down into groups.
+A URL contains several sections that would be helpful if we put them into different groups. In order to do that, we use parenthesis to group specific sections. Let's take a look at our URL regex and break them down into 4 groups.
 
 URL regex:
 ```/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/```  
