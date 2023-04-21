@@ -49,7 +49,7 @@ URL regex:
 ```/^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/```  
 
 The first group describes the http section (https): ```(https?:\/\/)```  
-The second group describes the domain section (www.youtube): ```([\da-z\.-]+)```  
+The second group describes the domain section (<span>www</span>.youtube): ```([\da-z\.-]+)```  
 The third group describes the top level domain section (.com, .edu): ```([a-z\.]{2,6})```  
 The fourth group describes the path: ```([\/\w \.-]*)*```  
 
