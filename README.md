@@ -96,5 +96,8 @@ the \w character class is used to match any word character, including letters (b
 
 
 ## Author
+Email: ecalmrd@gmail.com  
+GitHub: https://github.com/ecalmrd
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+
+
