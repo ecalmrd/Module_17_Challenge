@@ -54,9 +54,16 @@ The third group describes the top level domain section (.com, .edu): ```([a-z\.]
 The fourth group describes the path: ```([\/\w \.-]*)*```  
 
 ### Bracket Expressions
-[\da-z\.-]
-[a-z\.]
-[\/\w \.-]
+Bracket expressions are used to match a single character from a set of characters. In this URL regex, here is how each bracket expressions are used.
+
+```[\da-z\.-]```  
+This bracket expression matches a single character that can be any digit (\d), lowercase letter (a-z), period (.), or hyphen (-). The backslash before the "d" (\d) is used to represent any digit character.
+
+```[a-z\.]```  
+This bracket expression matches a single character that can be any lowercase letter (a-z) or period (.).
+
+```[\/\w \.-]```  
+This bracket expression matches a single character that can be either a forward slash (/), any word character (\w), a space ( ), period (.), or hyphen (-). The backslash before the "w" (\w) represents any word character, which includes all alphabetic characters, digits, and the underscore character.
 
 ### Quantifiers
 In regular expressions (regex), a quantifier is a symbol that indicates the number of times a preceding character, group, or character class can occur in a matching string. The quantifiers that are used in this URL regex are ```?``` and ```*```. The ```?``` quantifier matches a single occurrence of the preceding character or group. Next, the ```*``` quanitifier matches multiple occurrences of the preceding character or group. Lastly, the URL regex uses the ```{}``` quantifier. The curly brackets allows you to input a range of instance to be identified. For example ```{2}``` would identify 2 or more instances. 
@@ -79,7 +86,6 @@ Lastly, this portion describes the usage of the ```{}``` in the URL regex:
 
 We see that this portion is used in the top level domain (.com) section of the URL. The curly brackets are used to identify between 2 to 6 characters in that section.
 
-### OR Operator
 
 ### Character Classes
 
@@ -94,16 +100,6 @@ The ```\d``` will match any combination of digits in the domain section. Additio
 Lastly, in this example, we see ```\w``` used in the fourth group, the path section written as: ```([\/\w \.-]*)```.
 the \w character class is used to match any word character, including letters (both uppercase and lowercase), digits, and underscores. It's equivalent to the character class [a-zA-Z0-9_].
 
-
-### Flags
-
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
